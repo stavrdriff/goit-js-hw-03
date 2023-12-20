@@ -4,7 +4,7 @@ const filterArray = (numbers, value) => {
   const newNumbers = [];
 
   for (let number of numbers) {
-    if (number >= value) {
+    if (number > value) {
       newNumbers.push(number);
     }
   }
